@@ -1,4 +1,4 @@
-const key = '2976b01ab1e242159294155377556651';
+const key = process.env.REACT_APP_API_KEY;
 
 const requests = {
     requestPopular: `https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=1`,
