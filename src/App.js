@@ -1,13 +1,13 @@
 import React from "react";
-import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 function App() {
     return (
-        <div className="">
+        <main className="">
             <Navbar />
-            <Hero />
-        </div>
+            <Home />
+        </main>
     );
 }
 

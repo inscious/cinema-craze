@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <div className="bg-blac backdrop-blur-x w-full flex fixed z-50 h-24 items-center justify-center duration-150">
+        <div className="bg-black backdrop-blur-x w-full flex z-50 h-24 items-center justify-center duration-150">
             <div className="max-w-7xl mx-auto w-full bg-slate-00 px-5 xl:px-0 duration-150 flex flex-row justify-between items-center">
                 <h2 className="text-white font-bold text-3xl">Cinema Craze</h2>
                 <svg
